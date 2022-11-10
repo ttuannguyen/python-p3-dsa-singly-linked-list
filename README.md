@@ -2,9 +2,9 @@
 
 ## Learning Goals
 
-- Identify the use cases for a Singly Linked List
-- Demonstrate common methods for a Singly Linked List
-- Differentiate between a Singly Linked List and an list
+- Identify the use cases for a Singly Linked List.
+- Demonstrate common methods for a Singly Linked List.
+- Differentiate between a Singly Linked List and a list.
 
 ***
 
@@ -12,7 +12,8 @@
 
 - **Sequence**: a data structure in which data is stored and accessed in a
 specific order.
-- **Stack** is a linear data structure that follows the principle of Last In First Out (LIFO)
+- **Stack** is a linear data structure that follows the principle of Last In
+First Out (LIFO).
 - **Index**: the location, represented by an integer, of an element in a
 sequence.
 - **Iterable**: able to be broken down into smaller parts of equal size that
@@ -34,6 +35,8 @@ In this lesson, we'll learn what a **Singly Linked List** is, along with how to
 build a `LinkedList` class. We'll also learn some of its common methods to get
 an understanding of what the differences between a Singly Linked List and an
 list are.
+
+***
 
 ## What Is a Linked List?
 
@@ -70,7 +73,7 @@ dog breeds:
 After creating our list, we realize we forgot to add one dog in our list, a
 Chow Chow! To fix our list, we would need to _insert_ the "Chow Chow" element
 into the list in the correct index, which would be 2. Because there is already
-an element in the 2th index, and more elements in the sequential indexes, all of
+an element in the 2nd index, and more elements in the sequential indexes, all of
 those elements would have to be shifted down a spot, and given a new index.
 
 ![Pup list](https://curriculum-content.s3.amazonaws.com/phase-4/phase-4-data-structures-singly-linked-list/pup_array.png)
